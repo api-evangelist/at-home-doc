@@ -1,8 +1,28 @@
 aid: at-home-doc
 name: At-Home-Doc
-description: At-Home-Doc is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: At-Home-Doc (now branded MetaDoc) is a Qatar-based healthcare SuperApp
+  operated by Medihealth Solutions (MOPH Licence No. 2066) offering round-the-clock
+  virtual and in-person medical care. Patients book on-demand video consultations,
+  in-network clinic appointments, or home doctor visits through the app, alongside
+  pharmacy delivery, lab-at-home services, family insurance packages, and a Med Coins
+  loyalty rewards program. The platform bundles Meta Doc (virtual clinics for
+  practitioners), Meta Patient (a patient community), and Medi Shop into a single
+  consumer healthcare experience delivered over iOS and Android. Surfaced as a
+  500 Global portfolio company and enriched in the API Evangelist network; no public
+  developer API, OpenAPI, SDK, or documentation surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/at-home-doc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://at-home-doc.com/assets/logos/meta-doc1.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Telemedicine
+- Telehealth
+- Digital Health
+- Home Care
+- Pharmacy
+- Qatar
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/at-home-doc-domain-security.yml
+- type: WellKnown
+  url: well-known/at-home-doc-well-known.yml
 - type: Website
   url: https://at-home-doc.com
+- type: Blog
+  url: https://at-home-doc.com/blog
+- type: Support
+  url: https://at-home-doc.com/contact-us
+- type: TermsOfService
+  url: https://at-home-doc.com/terms-conditions
+- type: PrivacyPolicy
+  url: https://at-home-doc.com/assets/docs/Privacy-Policy-AHD.pdf
+- type: AppStore
+  url: https://apps.apple.com/qa/app/metadoc/id1597568648
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.athomedoc
+- type: X-Facebook
+  url: https://www.facebook.com/athomedoc
+- type: X-Instagram
+  url: https://www.instagram.com/athomedoc/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

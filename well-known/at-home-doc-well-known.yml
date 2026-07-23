@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: probed
+source: live HTTP probes of base host well-known paths
+host: at-home-doc.com
+probes:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+notes: No well-known documents published. At-Home-Doc (MetaDoc) is a consumer
+  telemedicine super-app with no public developer/API surface; absence recorded
+  as valid data.
