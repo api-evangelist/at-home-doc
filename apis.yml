@@ -11,6 +11,17 @@ description: At-Home-Doc (now branded MetaDoc) is a Qatar-based healthcare Super
   500 Global portfolio company and enriched in the API Evangelist network; no public
   developer API, OpenAPI, SDK, or documentation surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/at-home-doc/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
