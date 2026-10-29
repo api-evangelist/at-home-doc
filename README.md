@@ -64,6 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-At-Home-Doc is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+At-Home-Doc (now branded MetaDoc) is a Qatar-based healthcare SuperApp operated by Medihealth Solutions (MOPH Licence No. 2066) offering round-the-clock virtual and in-person medical care. Patients book on-demand video consultations, in-network clinic appointments, or home doctor visits through the app, alongside pharmacy delivery, lab-at-home services, family insurance packages, and a Med Coins loyalty rewards program. The platform bundles Meta Doc (virtual clinics for practitioners), Meta Patient (a patient community), and Medi Shop into a single consumer healthcare experience delivered over iOS and Android. Surfaced as a 500 Global portfolio company and enriched in the API Evangelist network; no public developer API, OpenAPI, SDK, or documentation surface is currently published.
 
-Backed by: 500-global — https://at-home-doc.com
+**Areas:** Company · Healthcare · Telehealth · Digital Health · Home Care · Pharmacy · Qatar · Mobile App
+
+## At-Home-Doc on APIs.io
+
+Everything profiled for At-Home-Doc is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/at-home-doc/](https://apis.io/providers/at-home-doc/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [At Home Doc Domain Security](https://apis.io/security/at-home-doc/at-home-doc-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://at-home-doc.com)
+- [Support](https://at-home-doc.com/contact-us)
+- [Blog](https://at-home-doc.com/blog)
+- [Terms of service](https://at-home-doc.com/terms-conditions)
+- [Privacy policy](https://at-home-doc.com/assets/docs/Privacy-Policy-AHD.pdf)
+
+## API Evangelist rating
+
+**Kin Score 10.3** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/at-home-doc/](https://apis.io/providers/at-home-doc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for At-Home-Doc: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/at-home-doc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
